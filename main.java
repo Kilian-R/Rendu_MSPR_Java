@@ -83,11 +83,10 @@ public class main {
 
 				// On crée le tableau en HTML pour afficher les détails de chaque agent.
 				agentHtml += "<div class='column center right'>";
-				agentHtml += "<table><thead><tr><th>Nom</th><th>Prénom</th><th>Mission</th><th>MDP htpasswd</th><th>Matériels</th></tr></thead><tbody>";
+				agentHtml += "<table><thead><tr><th>Nom</th><th>Prénom</th><th>Mission</th><th>Matériels</th></tr></thead><tbody>";
 				agentHtml += "<tr><td>" + nom + "</td>";
 				agentHtml += "<td>" + prenom + "</td>";
 				agentHtml += "<td>" + mission + "</td>";
-				agentHtml += "<td>" + mdpHtpasswd + "</td>";
 				agentHtml += "<td>" + materiel.toString() + "</td></tr>";
 				agentHtml += "</tbody></table>";
 				agentHtml += "</div>";
